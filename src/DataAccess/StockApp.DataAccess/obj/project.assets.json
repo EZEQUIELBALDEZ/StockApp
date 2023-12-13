@@ -724,6 +724,16 @@
             "rid": "win"
           }
         }
+      },
+      "StockApp.Busines/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/StockApp.Busines.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockApp.Busines.dll": {}
+        }
       }
     }
   },
@@ -2029,12 +2039,18 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "StockApp.Busines/1.0.0": {
+      "type": "project",
+      "path": "../../Business/StockApp.Busines/StockApp.Busines.csproj",
+      "msbuildProject": "../../Business/StockApp.Busines/StockApp.Busines.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.1.24",
-      "Microsoft.Data.SqlClient >= 5.1.2"
+      "Microsoft.Data.SqlClient >= 5.1.2",
+      "StockApp.Busines >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2044,11 +2060,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
       "projectName": "StockApp.DataAccess",
-      "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
+      "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2069,7 +2085,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
+              "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

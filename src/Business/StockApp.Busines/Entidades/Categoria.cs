@@ -9,6 +9,7 @@ namespace StockApp.Busines.Entties
 {
     public class Categoria : EntidadeCadastro
     {
-      
+   
+
     }
 }

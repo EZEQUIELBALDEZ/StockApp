@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o2e5xpB3e4LPfcNmXP/h1dffIdZn+N7igrt+bZqIcX2FRGO1spidaw2xU4z64SZQ6fmxW7N8zRHG94sDOFivQQ==",
+  "dgSpecHash": "588YRyp+Ka1N8VdS6k6kXNbJCFbUw26NJR1pMwg7ny+zlDGTYY2pb7ef6KEfFWWxleb940bY7E9oGhJitWSURw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

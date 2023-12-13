@@ -10,5 +10,6 @@ namespace StockApp.Busines.Interface.Database
     {
         void CriarBanco();
         void CriarTabelaCategoria();
+        void CriarTabelaSubCategoria();
     }
 }

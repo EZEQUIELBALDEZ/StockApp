@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MiIuQVg0M9UgoVVEbZQRKqrEby9OZ5BblMaEc4saCIrNigeMwDyFWgioF67Ah2o8oUvtC6LYbK5kyjGlcxjjAQ==",
+  "dgSpecHash": "LXp9RwVnIojbwIzd2OfXliiWJdm9wn+qnaabByb1jeZiHaZxdp05o6L+F4RIx+SsK5h8+7M+GsivE/72BnRvGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
+  "projectFilePath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using StockApp.Busines.Entties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,27 +14,30 @@ namespace StockApp.DataAccess.Database
         public void CriarTabelaCategoria()
         {
             var sql = @"
-                        CREATE TABLE Categoria 
-                        (
-                        	idcategoria INT IDENTITY(1,1) PRIMARY KEY,
-                        	nome VARCHAR(100) NOT NULL,
-                           	telefone VARCHAR(45) 
-                        )
-                        ";
+                    IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Categorias')
+                    BEGIN
+                            CREATE TABLE Categorias
+                            (
+                              Id int PRIMARY KEY IDENTITY,
+                              Nome varchar(100) NOT NULL,
+                              Status bit DEFAULT 1,
+                              DataCriacao date NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                              DataAlteracao date NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                            );
+                    END;";
             try
             {
-                using (var conexao = new SqlConnection(SqlServerContext.ConexaoSemBanco))
+                using (var conexao = new SqlConnection(SqlServerContext.ConexaoComBanco))
                 {
+                    conexao.Open();
                     var resultado = conexao.Execute(sql);
                 }
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+
                 throw;
             }
-            throw new NotImplementedException();
         }
-      
     }
 }

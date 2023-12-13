@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StockApp.WindowsForms
-build_property.ProjectDir = C:\Users\Senai.CEPEAS21104038\Downloads\StockApp-main (1)\StockApp-main\src\Presentation\StockApp.Presentation\
+build_property.ProjectDir = C:\Users\Senai.CEPEAS21104038\Source\Repos\EZEQUIELBALDEZ\StockApp\src\Presentation\StockApp.Presentation\

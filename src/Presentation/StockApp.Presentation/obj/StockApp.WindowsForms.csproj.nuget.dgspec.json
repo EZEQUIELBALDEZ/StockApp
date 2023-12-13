@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj": {}
+    "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
+    "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj",
+        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj",
         "projectName": "StockApp.Busines",
-        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj",
+        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj",
         "packagesPath": "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\obj\\",
+        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj": {
+    "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
         "projectName": "StockApp.DataAccess",
-        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,7 +92,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
+                "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -134,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj": {
+    "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
+        "projectUniqueName": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
         "projectName": "StockApp.WindowsForms",
-        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
+        "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\StockApp.WindowsForms.csproj",
         "packagesPath": "C:\\Users\\Senai.CEPEAS21104038\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Presentation\\StockApp.Presentation\\obj\\",
+        "outputPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Presentation\\StockApp.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,11 +167,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
-                "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj"
+              "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj": {
+                "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\Business\\StockApp.Busines\\StockApp.Busines.csproj"
               },
-              "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Downloads\\StockApp-main (1)\\StockApp-main\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj"
+              "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Senai.CEPEAS21104038\\Source\\Repos\\EZEQUIELBALDEZ\\StockApp\\src\\DataAccess\\StockApp.DataAccess\\StockApp.DataAccess.csproj"
               }
             }
           }

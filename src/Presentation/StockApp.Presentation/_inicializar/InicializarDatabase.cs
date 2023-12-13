@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace StockApp.WindowsForms._inicializar
 {
-    internal  class InicializarDatabase
+    internal class InicializarDatabase
     {
         private readonly IDataBaseService _databaseService;
 
-
-
-        public InicializarDatabase() 
+        public InicializarDatabase()
         {
             _databaseService = new DatabaseService();
-
         }
+
         internal void Init()
         {
-            _databaseService.CriarBanco();                                                                 
-        }  
+            _databaseService.CriarBanco();
+            _databaseService.CriarTabelaCategoria();
+            _databaseService.CriarTabelaSubCategoria();
+        }
     }
 }

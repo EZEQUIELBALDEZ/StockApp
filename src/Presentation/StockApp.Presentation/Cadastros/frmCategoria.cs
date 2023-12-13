@@ -1,5 +1,6 @@
 ﻿using StockApp.Busines.Entties;
 using StockApp.Busines.Interface;
+using StockApp.DataAccess.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,12 +19,10 @@ namespace StockApp.WindowsForms.Cadastros
         public frmCategoria()
         {
             InitializeComponent();
-            
+            _categoriaRepositorio = new CategoriaRepositorio();
+
         }
-        public frmCategoria(ICategoriaRepository categoriaRepositorio)
-        {
-            _categoriaRepositorio = categoriaRepositorio;
-        }
+      
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             var novaCategoria = new Categoria();
